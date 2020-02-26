@@ -82,11 +82,11 @@ function About(){
             <div className="col-lg-6">
               <div className="mi-about-content">
                 <h3>
-                  I am <span className="color-theme">{information.name}</span>
+                  I'm <span className="color-theme">David</span>
                 </h3>
                 <p>
-                  "Whatever good things we build, end up building us". Yes I know, this random quote I found on google is cheesy; but it's true. 
-                  What we build represents us. Thats why I strive to build to the greatest of my abilites -whether it be PC's, applications, or mediocre about me headers-. Nevertheless, I always get the job done with the help of powerful technologies including React, Node.js, Express, and MongoDB. (Check out the technologies section to see what I'm capable of)
+                  "Whatever good things we build, end up building us". Yes I know, pretty cheesy; but it's true. 
+                  What we build represents our work ethic. Thats why I strive to build to the greatest of my abilites -whether it be PC's, applications, or mediocre about me headers-. Nonetheless, I get the job done using powerful technologies including React, Node.js, Express, and MongoDB. (Check out the technologies section to see what I'm capable of)
                 </p>
                 <ul>
                   {!information.name ? null : <li>
@@ -134,8 +134,8 @@ function About(){
           </div>
         </div>
       </div>
-      <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
-        <div className="container">
+      <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom" />
+        {/* <div className="container">
           <Sectiontitle title="Reviews" />
           <div className="row justify-content-center">
             <div className="col-12">
@@ -147,7 +147,7 @@ function About(){
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 }

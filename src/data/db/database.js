@@ -20,7 +20,7 @@ const database = {
       dribbble: '',
       github: 'https://github.com/davidnielsen215'
     },
-    brandImage: '/images/header-img.jpg',
+    brandImage: '/images/header-img2.jpg',
     aboutImage: '/images/coderboi.jpg',
     aboutImageLg: '/images/coderboi.jpg',
     cvfile: '/files/empty.pdf'
@@ -97,7 +97,7 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
+      title: "React.js",
       subtitle: "A beautiful t-shirt mockup.",
       imageUrl: "/images/portfolio-image-1.jpg",
       largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
@@ -281,47 +281,40 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - Present",
+        position: "Full Stack Web Developer",
+        company: "Vlorm, Albuquerque NM",
+        details: "Vlorm is a retailing technology that saves local retail businesses from failing due to internet competition. Responsibilites include developing user account platforms, managing dashboard statistics, and loading/exporting user data via REST API's all while maintaning best security & encryption standards."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019",
+        position: "Freelance Developer",
+        company: "Remote Work",
+        details: "Developed CRUD mobile application for social media platform involving ability to track other user's location, maintain relationships, and influence content creation and sponsorship."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
+        year: "2017 - 2018",
+        position: "Sales Associate",
+        company: "Fry's Electronics, Tempe AZ",
+        details: "Educated customers on technology and component specifications associated with modern Audio/Video devices including Display, Bluetooth, and Wifi features."
+      },
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019",
+        graduation: "Full Stack Javascript Web Development",
+        university: "V School, Salt Lake City UT",
+        details: "Graudated from technical program with completion of all course assignments and curriculum requirements in modern web technology."
       },
       {
         id: 2,
         year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        graduation: "Associates Degree",
+        university: "Eastern Arizona College",
+        details: "Acquired Associates Degree from Eastern Arizona College maintaining a 3.1 GPA"
       }
     ]
   },
