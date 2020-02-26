@@ -6,7 +6,7 @@ function Testimonial(props){
       <div className="mi-testimonial">
         <div className="mi-testimonial-content">
           <p>
-            {props.content.content}
+            "{props.content.content}"
           </p>
         </div>
         <div className="mi-testimonial-author">

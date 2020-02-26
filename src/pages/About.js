@@ -122,7 +122,7 @@ function About(){
       </div>
       <div className="mi-service-area mi-section mi-padding-top">
         <div className="container">
-          <Sectiontitle title="Services" />
+          <Sectiontitle title="Abilities" />
           <div className="mi-service-wrapper">
             <div className="row mt-30-reverse">
               {services.map(service => (

@@ -29,17 +29,17 @@ const database = {
     {
       title: "Web Design",
       icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Styling modern, responsive applications using best practices with React.js."
     },
     {
       title: "Web Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "From database contruction, server response API's, and full stack deployment."
     },
     {
       title: "Mobile Application",
       icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Developement of both iOS and Android mobile applications using React-Native."
     }
   ],
   reviews: [
@@ -53,10 +53,10 @@ const database = {
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "David is extremely professional with his work & never fails to meet deadlines. With his positive attitude, he is sure to add major contribution to any team or company",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: 'Spencer Benson',
+        designation: 'UX Designer'
       }
     },
     {
