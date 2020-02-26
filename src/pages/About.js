@@ -85,7 +85,8 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  Technology is my passion. I develop modern web applications with the help of powerful frameworks and libraries including React, Node.js, Express, and MongoDB
+                  "Whatever good things we build, end up building us". Yes I know, this random quote I found on google is cheesy; but it's true. 
+                  What we build represents us. Thats why I strive to build to the greatest of my abilites -whether it be PC's, applications, or mediocre about me headers-. Nevertheless, I always get the job done with the help of powerful technologies including React, Node.js, Express, and MongoDB. (Check out the technologies section to see what I'm capable of)
                 </p>
                 <ul>
                   {!information.name ? null : <li>

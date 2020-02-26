@@ -3,13 +3,13 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'David Nielsen',
-    aboutContent: "Full Stack Javascript Developer.",
-    age: 22,
+    aboutContent: "Full Stack Software Developer",
+    age: 23,
     phone: '(575) 997-7631',
-    nationality: 'American',
+    nationality: null,
     language: 'English, Spanish',
     email: 'davidnielsen215@gmail.com',
-    address: '540 Rain Lily Rd, Los Lunas, NM',
+    address: null,
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://www.facebook.com/davenj8',
@@ -21,8 +21,8 @@ const database = {
       github: 'https://github.com/davidnielsen215'
     },
     brandImage: '/images/header-img.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    aboutImage: '/images/coderboi.jpg',
+    aboutImageLg: '/images/coderboi.jpg',
     cvfile: '/files/empty.pdf'
   },
   services: [

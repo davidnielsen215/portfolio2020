@@ -9,10 +9,8 @@ function Home(){
   const paramConfig = {
     particles: {
       number: {
-        value: 80,
-        density: {
-          enable: false
-        }
+        value: 60,
+        
       },
       color: {
         value: "#ffffff"
@@ -21,21 +19,18 @@ function Home(){
         value: 0.1
       },
       size: {
-        value: 3.2,
-        random: true,
-        anim: {
-          speed: 4,
-          size_min: 0.4
-        }
+        value: 3.3,
+        random: false,
+        
       },
       line_linked: {
         enable: true
       },
       move: {
         random: true,
-        speed: 1.4,
+        speed: 2.4,
         direction: "random",
-        out_mode: "out"
+        // out_mode: "out"
       }
     }
   };
@@ -56,7 +51,7 @@ function Home(){
                 <h1>
                   David <span className="color-theme">Nielsen</span>
                 </h1>
-                <p>{information.aboutContent}</p>
+                <p style={{color: 'white'}}>{information.aboutContent}</p>
                 <Socialicons bordered />
               </div>
             </div>

@@ -18,7 +18,7 @@ function BlogDetails(props) {
       .catch(err => console.log(err));
   }, [content]);
 
-  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  const disqusShortname = "chester-react" //found in your Disqus.com dashboard
   const disqusConfig = {
     url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
     identifier: blogId,
