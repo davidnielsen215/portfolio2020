@@ -38,7 +38,7 @@ function Header(){
                     <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>
-                <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" >nielsendavid.com</a></b></p>
+                <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b>nielsendavid.com</b></p>
             </div>
         </nav>
     )

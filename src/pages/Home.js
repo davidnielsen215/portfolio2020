@@ -9,7 +9,7 @@ function Home(){
   const paramConfig = {
     particles: {
       number: {
-        value: 180,
+        value: 80,
         density: {
           enable: false
         }
@@ -25,11 +25,11 @@ function Home(){
         random: true,
         anim: {
           speed: 4,
-          size_min: 0.3
+          size_min: 0.4
         }
       },
       line_linked: {
-        enable: false
+        enable: true
       },
       move: {
         random: true,
@@ -54,7 +54,7 @@ function Home(){
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
                 <h1>
-                  Hi, I'm <span className="color-theme">{information.name}</span>
+                  David <span className="color-theme">Nielsen</span>
                 </h1>
                 <p>{information.aboutContent}</p>
                 <Socialicons bordered />

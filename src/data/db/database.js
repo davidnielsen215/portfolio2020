@@ -3,9 +3,9 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'David Nielsen',
-    aboutContent: "A Full Stack Javascript Web Developer.",
+    aboutContent: "Full Stack Javascript Developer.",
     age: 22,
-    phone: '',
+    phone: '(575) 997-7631',
     nationality: 'American',
     language: 'English, Spanish',
     email: 'davidnielsen215@gmail.com',
@@ -20,7 +20,7 @@ const database = {
       dribbble: '',
       github: 'https://github.com/davidnielsen215'
     },
-    brandImage: '/images/brand-image.jpg',
+    brandImage: '/images/header-img.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
     cvfile: '/files/empty.pdf'
