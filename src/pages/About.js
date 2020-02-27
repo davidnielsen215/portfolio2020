@@ -66,7 +66,7 @@ function About(){
             <div className="col-lg-6">
               <div className="mi-about-image">
                 <img
-                  style={{borderRadius: '20px'}}
+                  style={{borderRadius: '20px', width: '400px'}}
                   src={information.aboutImage}
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
