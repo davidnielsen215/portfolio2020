@@ -66,6 +66,7 @@ function About(){
             <div className="col-lg-6">
               <div className="mi-about-image">
                 <img
+                  style={{borderRadius: '20px'}}
                   src={information.aboutImage}
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
@@ -86,7 +87,7 @@ function About(){
                 </h3>
                 <p>
                   "Whatever good things we build, end up building us". Yes I know, pretty cheesy; but it's true. 
-                  What we build represents our work ethic. Thats why I strive to build to the greatest of my abilites -whether it be PC's, applications, or mediocre about me headers-. Nonetheless, I get the job done using powerful technologies including React, Node.js, Express, and MongoDB. (Check out the technologies section to see what I'm capable of)
+                  What we build represents our work ethic. Thats why I strive to build to the greatest of my abilites -whether it be PC's, applications, or mediocre about me headers-. Nonetheless, I get the job done using powerful technology including React, Node.js, Express, and MongoDB. (Check out the technologies section to see what I'm capable of)
                 </p>
                 <ul>
                   {!information.name ? null : <li>
@@ -114,7 +115,7 @@ function About(){
                     <b>Freelance</b> {information.freelanceStatus}
                   </li>}
                 </ul>
-                <a href={information.cvfile} className="mi-button">Download CV</a>
+                {/* <a href={information.cvfile} className="mi-button">Download CV</a> */}
               </div>
             </div>
           </div>

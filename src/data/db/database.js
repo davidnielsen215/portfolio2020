@@ -1,4 +1,5 @@
 import Mock from "../mock";
+import reactLogo from '../../images/react_logo.png'
 
 const database = {
   information: {
@@ -70,27 +71,27 @@ const database = {
   ],
   skills: [
     {
-      title: "HTML5",
-      value: 95
+      title: "React",
+      value: 85
     },
     {
-      title: "CSS3",
-      value: 90
+      title: "MongoDB",
+      value: 80
+    },
+    {
+      title: "Redux",
+      value: 75
+    },
+    {
+      title: "Express + API's",
+      value: 85
     },
     {
       title: "Javascript",
       value: 70
     },
     {
-      title: "jQuery",
-      value: 85
-    },
-    {
-      title: "ReactJS",
-      value: 80
-    },
-    {
-      title: "Photoshop",
+      title: "CMS",
       value: 65
     }
   ],
@@ -291,7 +292,7 @@ const database = {
         year: "2019",
         position: "Freelance Developer",
         company: "Remote Work",
-        details: "Developed CRUD mobile application for social media platform involving ability to track other user's location, maintain relationships, and influence content creation and sponsorship."
+        details: "Developed CRUD mobile application for social media platform with ability to consentually track other user's location, maintain relationships, and influence content creation and sponsorship."
       },
       {
         id: 3,
@@ -299,6 +300,64 @@ const database = {
         position: "Sales Associate",
         company: "Fry's Electronics, Tempe AZ",
         details: "Educated customers on technology and component specifications associated with modern Audio/Video devices including Display, Bluetooth, and Wifi features."
+      },
+    ],
+    techExperience: [
+      {
+        id: 1,
+        year: "react",
+        tech: "React",
+        project: "Full Stack Applications",
+        details: "Ability to design and develop platform for customer login / signup through storing information in database. Allows for user to register account, check statistcis, and purchase services. "
+      },
+      {
+        id: 2,
+        year: "mongo",
+        tech: "MongoDB",
+        project: "Database",
+        details: "Database construction and API configuration through MongoDB for granting access to validated users, encrypting user passwords, and assigning individual user data properties to personalize their experience in a secure environment."
+      },
+      {
+        id: 3,
+        year: "express",
+        tech: "Express",
+        project: "Middleware + Web Query",
+        details: "Through express, the routing of user information from database to server is quickly handled through rest api's. CORS authorization configuration and routing middleware for fast sites and secure data"
+      },
+      {
+        id: 4,
+        year: "node",
+        tech: "Node.js",
+        project: "JavaScript",
+        details: "All of the Javascript code is written in a Node environment for easier compiling and faster develpment. React components developed in JSX"
+      },
+      {
+        id: 5,
+        year: "redux",
+        tech: "Redux",
+        project: "State Management",
+        details: "State management using Redux and React-Context for global state changes preventing compiler collapses, slower rendering, and cumbersome components."
+      },
+      {
+        id: 7,
+        year: "drupal",
+        tech: "Content Management System",
+        project: "Drupal + Wordpress",
+        details: "Developed multiple websites using drupal and wordpress CMS'. Plugin || Module configuration allowed for required site tasks to be developed and completed. "
+      },
+      {
+        id: 8,
+        year: "hubspot",
+        tech: "CRM",
+        project: "HubSpot + Axios",
+        details: "Ability to save customers in CRM through API's create and dispatch transactional emails to designated clients. Email content may include validation tokens, transaction receipts, and personalized marketing material"
+      },
+      {
+        id: 9,
+        year: "secure",
+        tech: "Encryption + Security",
+        project: "Bcrypt + JWT + dotEnv",
+        details: "Bcrypt password encryption for user security. Correct storage of sensitive information (API keys, JWT secrets, and licenses) in environmental files hiding source code from unauthorized entities"
       },
     ],
     educationExperience: [

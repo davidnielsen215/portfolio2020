@@ -11,6 +11,7 @@ function Resumes(){
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);
+  const [techExperience, setTechExperience] = useState([]);
 
   useEffect(() =>{
     axios.get('/api/skills')
@@ -21,12 +22,13 @@ function Resumes(){
       .then(response =>{
         setWorkingExperience(response.data.workingExperience);
         setEducationExperience(response.data.educationExperience);
+        setTechExperience(response.data.techExperience)
       })
   }, [])
 
   return (
     <Layout>
-      {/* <div className="mi-skills-area mi-section mi-padding-top">
+      <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">
           <Sectiontitle title="Skills" />
           <div className="mi-skills">
@@ -34,12 +36,12 @@ function Resumes(){
               {skills.map(skill => (
                 <TrackVisibility once className="col-lg-6 mt-30" key={skill.title}>
                   <Progress title={skill.title} percentage={skill.value} />
-                </TrackVisibility> */}
-              {/* ))}
-            </div> */}
-          {/* </div> */}
-        {/* </div> */}
-      {/* </div> */}
+                </TrackVisibility>
+               ))}
+            </div> 
+           </div> 
+        </div>
+      </div>
       <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Resume" />
@@ -47,6 +49,13 @@ function Resumes(){
           <div className="mi-resume-wrapper">
             {workingExperience.map(workingExp => (
               <Resume key={workingExp.id} resumeData={workingExp} />
+            ))}
+          </div>
+          <div className="mt-30"></div>
+          <Smalltitle title="Technology" icon="bolt" />
+          <div className="mi-resume-wrapper">
+            {techExperience.map(educatonExp => (
+              <Resume key={educatonExp.id} resumeData={educatonExp}/>
             ))}
           </div>
           <div className="mt-30"></div>
