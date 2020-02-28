@@ -8,6 +8,7 @@ import drupalLogo from '../images/drupal.png'
 import wordLogo from '../images/wordpress.png'
 import hubLogo from '../images/hubspot.png'
 import jwtLogo from '../images/jwt.png'
+import sendgridLogo from '../images/sendgrid.png'
 
 function Resume(props) {
   const {year, position, graduation, university, company, details, tech, project} = props.resumeData;
@@ -100,7 +101,7 @@ function Resume(props) {
     return (
       <div className="mi-resume mt-30">
       <div className="mi-resume-summary">
-        <h6 className="mi-resume-year"> <img src={hubLogo} style={{width: '50px', height: 'auto'}}/></h6>
+        <h6 className="mi-resume-year"> <img src={hubLogo} style={{width: '50px', height: 'auto'}}/><img src={sendgridLogo} style={{width: '40px', height: 'auto'}}/></h6>
       </div>
       <div className="mi-resume-details">
         <h5>{position || graduation || tech}</h5>

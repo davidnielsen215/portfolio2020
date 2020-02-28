@@ -349,7 +349,7 @@ const database = {
         id: 8,
         year: "hubspot",
         tech: "CRM",
-        project: "HubSpot + Axios",
+        project: "HubSpot + Sendgrid",
         details: "Ability to save customers in CRM through API's create and dispatch transactional emails to designated clients. Email content may include validation tokens, transaction receipts, and personalized marketing material"
       },
       {
@@ -515,9 +515,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['(575) 997-7631'],
+    emailAddress: ['davidnielsen215@gmail.com'],
+    address: "Salt Lake City, UT"
   }
 }
 
