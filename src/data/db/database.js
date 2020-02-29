@@ -285,21 +285,21 @@ const database = {
         year: "2019 - Present",
         position: "Full Stack Web Developer",
         company: "Vlorm, Albuquerque NM",
-        details: "Vlorm is a retailing technology that saves local retail businesses from failing due to internet competition. Responsibilites include developing user account platforms, managing dashboard statistics, and loading/exporting user data via REST API's all while maintaning best security & encryption standards."
+        details: "Developed entire full-stack admin platform for customers registered under product use. Advised piers on best technologies and strategies for pursuing company goals by communicating technical requirements to non-technical individuals."
       },
       {
         id: 2,
         year: "2019",
         position: "Freelance Developer",
         company: "Remote Work",
-        details: "Developed CRUD mobile application for social media platform with ability to consentually track other user's location, maintain relationships, and influence content creation and sponsorship."
+        details: "Developed CRUD mobile application for social media platform with ability to consentually track other user's location, maintain relationships, and influence content creation and sponsorship. Application developed in React-Native assisted with Xcode. "
       },
       {
         id: 3,
         year: "2017 - 2018",
         position: "Sales Associate",
         company: "Fry's Electronics, Tempe AZ",
-        details: "Educated customers on technology and component specifications associated with modern Audio/Video devices including Display, Bluetooth, and Wifi features."
+        details: "Educated customers on technology and component specifications associated with modern Audio/Video devices including Display, Bluetooth, and Wifi features. Installation of audio/video equipment including PC's, Monitors, TV's and Bluetooth devices."
       },
     ],
     techExperience: [
@@ -308,56 +308,56 @@ const database = {
         year: "react",
         tech: "React",
         project: "Full Stack Applications",
-        details: "Ability to design and develop platform for customer login / signup through storing information in database. Allows for user to register account, check statistcis, and purchase services. "
+        details: "Ability to design and develop platform for customer login / signup through storing information in database. Allows for user to register account, check statistcis, and purchase services."
       },
       {
         id: 2,
         year: "mongo",
         tech: "MongoDB",
         project: "Database",
-        details: "Database construction and API configuration through MongoDB for granting access to validated users, encrypting user passwords, and assigning individual user data properties to personalize their experience in a secure environment."
+        details: "Constructed and configured database and API’s through MongoDB + Express for granting access to validated users, encrypting user passwords, and assigning individual user data properties to personalize their experience in a secure environment."
       },
       {
         id: 3,
         year: "express",
         tech: "Express",
         project: "Middleware + Web Query",
-        details: "Through express, the routing of user information from database to server is quickly handled through rest api's. CORS authorization configuration and routing middleware for fast sites and secure data"
+        details: "Routed user information from database to server handled through REST API's. CORS authorization and middleware configuration for fast sites and secure data transmission."
       },
       {
         id: 4,
         year: "node",
         tech: "Node.js",
         project: "JavaScript",
-        details: "All of the Javascript code is written in a Node environment for easier compiling and faster develpment. React components developed in JSX"
+        details: "Developed multiple proprietary applications in Javascript within a Node environment for easier compilement and faster development. React components developed in JSX."
       },
       {
         id: 5,
         year: "redux",
         tech: "Redux",
         project: "State Management",
-        details: "State management using Redux and React-Context for global state changes preventing compiler collapses, slower rendering, and cumbersome components."
+        details: "Incorporated State management with Redux or React-Context for global state changes preventing compiler collapses, slower rendering, and cumbersome components."
       },
       {
         id: 7,
         year: "drupal",
         tech: "Content Management System",
-        project: "Drupal + Wordpress",
-        details: "Developed multiple websites using drupal and wordpress CMS'. Plugin || Module configuration allowed for required site tasks to be developed and completed. "
+        project: "Drupal & Wordpress",
+        details: "Knowledge in website development using Drupal and Wordpress CMS'. Plugin/Module configuration allowed for required site task development to be completed. "
       },
       {
         id: 8,
         year: "hubspot",
         tech: "CRM",
-        project: "HubSpot + Sendgrid",
-        details: "Ability to save customers in CRM through API's create and dispatch transactional emails to designated clients. Email content may include validation tokens, transaction receipts, and personalized marketing material"
+        project: "HubSpot & Sendgrid",
+        details: "Ability to save customers in CRM through API's create and dispatch transactional emails to designated clients. Email content may include validation tokens, transaction receipts, and personalized marketing material."
       },
       {
         id: 9,
         year: "secure",
         tech: "Encryption + Security",
-        project: "Bcrypt + JWT + dotEnv",
-        details: "Bcrypt password encryption for user security. Correct storage of sensitive information (API keys, JWT secrets, and licenses) in environmental files hiding source code from unauthorized entities"
+        project: "Bcrypt + JWT ",
+        details: "Bcrypt password encryption for user security. Correct storage of sensitive information (API keys, JWT secrets, and licenses) in environmental files hiding source code from unauthorized entities."
       },
     ],
     educationExperience: [
@@ -366,14 +366,14 @@ const database = {
         year: "2019",
         graduation: "Full Stack Javascript Web Development",
         university: "V School, Salt Lake City UT",
-        details: "Graudated from technical program with completion of all course assignments and curriculum requirements in modern web technology."
+        details: "Graudated from technical program with completion of all course assignments and curriculum requirements in modern web technology. Presented various applications to audiences of 40+ individuals including potential employers."
       },
       {
         id: 2,
         year: "2016 - 2018",
         graduation: "Associates Degree",
         university: "Eastern Arizona College",
-        details: "Acquired Associates Degree from Eastern Arizona College maintaining a 3.1 GPA"
+        details: "Computer Information Systems course completed. Fundamental Concepts of hardware and software applied to computers in a business environment."
       }
     ]
   },
@@ -561,3 +561,4 @@ Mock.onGet("/api/contactinfo").reply(config => {
   const response = database.contactInfo;
   return [200, response];
 });
+
