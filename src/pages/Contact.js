@@ -33,7 +33,7 @@ function Contact(){
       setMessage('Message is required');
     } else{
       setError(false);
-      setMessage('You message has been sent!!!');
+      setMessage('Message sent');
     }
   }
   const handleChange = (event) => {
@@ -85,23 +85,23 @@ function Contact(){
                 <h4>Get In Touch</h4>
                 <form action="#" className="mi-form mi-contact-form" onSubmit={submitHandler}>
                   <div className="mi-form-field">
-                    <label htmlFor="contact-form-name">Enter your name*</label>
+                    <label htmlFor="contact-form-name">Name *</label>
                     <input onChange={handleChange} type="text" name="name" id="contact-form-name" value={formdata.name}/>
                   </div>
                   <div className="mi-form-field">
-                    <label htmlFor="contact-form-email">Enter your email*</label>
+                    <label htmlFor="contact-form-email">Email *</label>
                     <input onChange={handleChange} type="text" name="email" id="contact-form-email" value={formdata.email}/>
                   </div>
                   <div className="mi-form-field">
-                    <label htmlFor="contact-form-subject">Enter your subject*</label>
+                    <label htmlFor="contact-form-subject">Subject *</label>
                     <input onChange={handleChange} type="text" name="subject" id="contact-form-subject" value={formdata.subject}/>
                   </div>
                   <div className="mi-form-field">
-                    <label htmlFor="contact-form-message">Enter your Message*</label>
+                    <label htmlFor="contact-form-message">Message *</label>
                     <textarea onChange={handleChange} name="message" id="contact-form-message" cols="30" rows="6" value={formdata.message}></textarea>
                   </div>
                   <div className="mi-form-field">
-                    <button className="mi-button" type="submit">Send Mail</button>
+                    <button className="mi-button" type="submit">Send</button>
                   </div>
                 </form>
                 {handleAlerts()}
