@@ -21,7 +21,7 @@ const database = {
       dribbble: '',
       github: 'https://github.com/davidnielsen215'
     },
-    brandImage: '/images/header-img2.jpg',
+    brandImage: '/images/header-img.jpg',
     aboutImage: '/images/coderboi.jpg',
     aboutImageLg: '/images/coderboi.jpg',
     cvfile: '/files/empty.pdf'

@@ -82,21 +82,6 @@ function Contact(){
         setAddress(response.data.address);
       })
   }, [])
-
-
-//   function sendEmail(){
-//     console.log(userCredentials)
-//     const port = process.env.Port || 5000
-//     const validationUrl = 'http://localhost:3000/validate'
-//     const recipient = userCredentials.userInfo.username
-//     const sToken = userCredentials.user.secretToken
-//     const sender = 'test@bestdealretailer.com'
-//     const subject = 'Validate your Email'
-//     const text = `Thank you for signing up with Best Deal Retailer. Your validation code is: ${sToken} . Please click the link and follow the instructions to validate your account ${validationUrl}`
-//     fetch(`http://127.0.0.1:${port}/send-email?recipient=${recipient}&sender=${sender}&topic=${subject}&text=${text}`)
-//     .then(console.log('succesfully sent email'))
-//     .catch(err => console.error(err))
-// }
   
   return (
     <Layout>
