@@ -19,6 +19,11 @@ function Contact(){
 
   const submitHandler = (event) =>{
     event.preventDefault();
+            const port = process.env.Port || 5000
+            const recipient = 'davidnielsen215@gmail.com'
+            const sender = formdata.email
+            const subject = formdata.subject
+            const text = formdata.subject
     if( !formdata.name ){
       setError(true);
       setMessage('Name is required');
@@ -33,9 +38,13 @@ function Contact(){
       setMessage('Message is required');
     } else{
       setError(false);
-      setMessage('Message sent');
+      setMessage(`Message sent, we'll be in contact soon!`);
+      console.log(formdata)
+      fetch(`http://127.0.0.1:${port}/send-email?recipient=${recipient}&sender=${sender}&topic=${subject}&text=${text}`)
+      .catch(err => console.log(err))
     }
   }
+
   const handleChange = (event) => {
     setFormdata({
       ...formdata,
@@ -74,6 +83,21 @@ function Contact(){
       })
   }, [])
 
+
+//   function sendEmail(){
+//     console.log(userCredentials)
+//     const port = process.env.Port || 5000
+//     const validationUrl = 'http://localhost:3000/validate'
+//     const recipient = userCredentials.userInfo.username
+//     const sToken = userCredentials.user.secretToken
+//     const sender = 'test@bestdealretailer.com'
+//     const subject = 'Validate your Email'
+//     const text = `Thank you for signing up with Best Deal Retailer. Your validation code is: ${sToken} . Please click the link and follow the instructions to validate your account ${validationUrl}`
+//     fetch(`http://127.0.0.1:${port}/send-email?recipient=${recipient}&sender=${sender}&topic=${subject}&text=${text}`)
+//     .then(console.log('succesfully sent email'))
+//     .catch(err => console.error(err))
+// }
+  
   return (
     <Layout>
       <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
